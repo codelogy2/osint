@@ -3,9 +3,9 @@ export const siteConfig = {
   presenter: 'امیرمحمد',
   collectorDeveloper: 'مهدی پورذهبی',
   notesAccess: {
-    username: 'speaker',
+    username: 'amir',
     passwordSalt: '5e3e3cc361d1215772a828d73ed3f3da',
-    passwordHash: '915f667c46fff137bba4d59fabee0a79f80bdcf2700c3155d2a7c9fee5e54552',
+    passwordHash: 'a0a6b783c7c106da1da61f755f0e65c31807d4d27c38e40fba22da8f848ad0e6',
     iterations: 310000
   },
   course: 'اصول و فنون مذاکره',
