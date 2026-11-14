@@ -2,6 +2,12 @@ export const siteConfig = {
   publicUrl: 'https://codelogy2.github.io/osint/files-pasted-by-the-user-classified/#/read',
   presenter: 'امیرمحمد',
   collectorDeveloper: 'مهدی پورذهبی',
+  notesAccess: {
+    username: 'speaker',
+    passwordSalt: '5e3e3cc361d1215772a828d73ed3f3da',
+    passwordHash: '915f667c46fff137bba4d59fabee0a79f80bdcf2700c3155d2a7c9fee5e54552',
+    iterations: 310000
+  },
   course: 'اصول و فنون مذاکره',
   durationMinutes: 15
 };

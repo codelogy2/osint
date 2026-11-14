@@ -22,6 +22,7 @@
   <main id="app" tabindex="-1"></main>
   <footer class="hud"><div class="progress-track"><i id="progress"></i></div><div class="hud-row"><span id="slide-label">۰۱ / ۱۷</span><div class="hud-controls"><button id="prev" aria-label="اسلاید قبلی">→</button><button id="next" aria-label="اسلاید بعدی">←</button><button id="speaker-notes" aria-label="یادداشت سخنران">یادداشت</button><button id="print-deck" aria-label="چاپ یا ذخیره به صورت PDF">PDF</button><span class="key-hint">← → حرکت · Home آغاز · P یادداشت · Esc خروج</span></div><span class="hud-code">CLASSIFIED <b>•</b> INT-OSINT-001</span></div></footer>
   <dialog id="notes-dialog" class="notes-dialog"><form method="dialog"><button class="notes-close" aria-label="بستن یادداشت‌ها">×</button></form><div class="eyebrow">PRESENTER NOTES <span id="notes-index"></span></div><h2 id="notes-title"></h2><p id="notes-body"></p></dialog>
+  <dialog id="access-dialog" class="notes-dialog access-dialog"><form id="access-form"><div class="eyebrow">PRESENTER ACCESS</div><h2>ورود به یادداشت‌های سخنران</h2><label>نام کاربری<input id="access-username" name="username" autocomplete="username" required></label><label>رمز عبور<input id="access-password" name="password" type="password" autocomplete="current-password" required></label><p id="access-error" role="status"></p><button type="submit" class="print-button">ورود</button><button type="button" class="print-button" id="access-cancel">بازگشت</button></form></dialog>
   <script type="module" src="js/deck.js"></script>
 </body>
 </html>

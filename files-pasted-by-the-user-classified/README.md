@@ -37,3 +37,7 @@ Before publishing, put the exact Pages URL into `siteConfig.publicUrl` in `data/
 After adding this folder to the intended GitHub repository, choose **Settings → Pages → Source: GitHub Actions**, push the workflow to the default branch, and wait for the deployment. No push or account setting was performed from this workspace.
 
 The presenter notes are brief. Print/PDF uses a landscape reader layout. The reader mode contains all slides in a vertical flow. The navigation count and notes are generated from the slide data.
+
+## Presenter notes access
+
+The guide and per-slide presenter notes use a client-side access prompt. The username is `speaker`; the demo password remains `Briefing-001` and is checked against a PBKDF2-SHA-256 hash with a per-project salt in `siteConfig.notesAccess` (`data/slides.js`). The plaintext password is not stored in the project. This is only a presentation convenience: the hash and notes are delivered to every browser, so this prompt is not real security and must not be used to protect confidential notes.
